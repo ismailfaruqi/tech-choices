@@ -110,6 +110,10 @@ Gitlab CI is amazing because you can put workers that can pull from Gitlab serve
 
 I guess if I have to choose only one operating system for all of my servers, it would be Ubuntu.
 
+### 13: HTTP Manipulator: Kong
+
+Kong is excellent to manipulate your HTTP requests.
+
 ## Programming and Architecture
 
 ### 1. Programming Language: Java
