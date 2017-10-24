@@ -128,7 +128,8 @@ Kong is excellent to manipulate your HTTP requests.
 
 ### 14: Hypervisor: KVM
 
-Although there are many excellent supervisors out there, I really like KVM. It is free and easy to setup.
+Although there are many excellent supervisors out there, I really like KVM. It is free and easy to setup. It is also the base
+for more complicated setup such as Proxmox or Openstack.
 
 ### 15: Relational Databases: MySQL
 
