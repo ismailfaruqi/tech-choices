@@ -1,6 +1,8 @@
 # Uqi's Technology Choices
 
 This is a collection of technology pieces that have been performed excellently during my career, or I am excited about.
+This is inspired by [Thoughtworks Technology Radar](https://www.thoughtworks.com/radar), and I am trying to add local touches
+to it.
 
 _Disclaimer_ : This is my personal opinion and does not reflect any of the company i am working on.
 
@@ -29,7 +31,7 @@ Dell servers have great management called iDRAC which I like.
 
 ### 5. Server: Supermicro
 
-Supermicro server design really stands out among its competitors,particularly their Ultra, BigTwin, and Superstorage line.
+Supermicro server design really stands out among its competitors, particularly their Ultra, BigTwin, and Simply Double line.
 They are also a great value compared to big brands, although their exotic line has comparable price.
 
 ### 6. UTP Cables: Eco Patch
@@ -139,3 +141,8 @@ however it is pretty maintenance-free once it is going.
 ### 1. Programming Language: Java
 
 Java is still de-facto language in enterprise that needs speed. Nuff said.
+
+### 2. Architecture: Monolithic to Microservices
+
+Start from monolithic, then break up to microservices. Microservices need a lot of tooling to be resilient, 
+such as Kubernetes, Kafka, Kong, Consul.
