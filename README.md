@@ -136,6 +136,10 @@ It comes with various flavors, the one I like most is Percona ones because there
 Kafka is a very fast messaging system and very easy to configure. It is very complex to set up the operational tools around it,
 however it is pretty maintenance-free once it is going.
 
+### 17: Platform Architecture: One subnet for one module
+
+If we really need subnetting, better add one subnet for each module, and apply ACLs based on that.
+
 ## Programming and Architecture
 
 ### 1. Programming Language: Java
