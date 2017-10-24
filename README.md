@@ -98,51 +98,37 @@ Consul has innovative protocol for service discovery, and setting it up also rea
 Graylog is awesome for logging. Setting it up is really complex, but once it is running, it is cheaper than Splunk and has great features
 and plugins.
 
-### 7. Full Text Search: Elastic Search
-
-Having Elastic Search experience is essential for your team to handle searching problem.
-
-### 8. Infrastructure Automation: Ansible
+### 7. Infrastructure Automation: Ansible
 
 Ansible is very simple for automating infrastructure. 
 
-### 9. Application Packaging: Docker
+### 8. Application Packaging: Docker
 
 Docker provides excellent packaging and isolation for your container.
 
-### 10. Repository: Gitlab
+### 9. Repository: Gitlab
 
 Having Gitlab can reduce your Github company bill.
 
-### 11. CI: Gitlab CI
+### 10. CI: Gitlab CI
 
 Gitlab CI is amazing because you can put workers that can pull from Gitlab server itself.
 
-### 12. Server OS: Ubuntu
+### 11. Server OS: Ubuntu
 
 I guess if I have to choose only one base operating system for all of my servers, it would be Ubuntu. But of course,
 you mix and match your OS based on your needs.
 
-### 13: HTTP Manipulator: Kong
+### 12: HTTP Manipulator: Kong
 
 Kong is excellent to manipulate your HTTP requests.
 
-### 14: Hypervisor: KVM
+### 13: Hypervisor: KVM
 
 Although there are many excellent supervisors out there, I really like KVM. It is free and easy to setup. It is also the base
 for more complicated setup such as Proxmox or Openstack.
 
-### 15: Relational Databases: MySQL
-
-I actually don't like MySQL very much, it is that I have most exposure compared to other relational DBs like Postgre and Oracle.
-It comes with various flavors, the one I like most is Percona ones because there are a lot of other toolings around it.
-
-### 16: Messaging: Kafka
-
-Kafka is a very fast messaging system and very easy to configure. It is very complex to set up the operational tools around it,
-however it is pretty maintenance-free once it is going.
-
-### 17: Platform Architecture: One subnet for one module
+### 14: Platform Architecture: One subnet for one module
 
 If we really need subnetting, better add one subnet for each module, and apply ACLs based on that.
 
@@ -161,3 +147,18 @@ such as Kubernetes, Kafka, Kong, Consul.
 
 Never go with only single redis, unless it is ok to have data loss / cache rebuild. For HA setup, use Sentinel
 for low throughput and low volume, and Cluster for high throughput / fast growing storage.
+
+### 4: Relational Databases: MySQL
+
+I actually don't like MySQL very much, it is that I have most exposure compared to other relational DBs like Postgre and Oracle.
+It comes with various flavors, the one I like most is Percona ones because there are a lot of other toolings around it.
+
+### 5: Messaging: Kafka
+
+Kafka is a very fast messaging system and very easy to configure. It is very complex to set up the operational tools around it,
+however it is pretty maintenance-free once it is going.
+
+### 6. Full Text Search: Elastic Search
+
+Having Elastic Search experience is essential for your team to handle searching problem.
+
