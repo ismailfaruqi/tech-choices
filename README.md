@@ -155,3 +155,8 @@ Java is still de-facto language in enterprise that needs speed. Nuff said.
 
 Start from monolithic, then break up to microservices. Microservices need a lot of tooling to be resilient, 
 such as Kubernetes, Kafka, Kong, Consul.
+
+### 3. In-memory Data Store: Redis Sentinel / Redis Cluster
+
+Never go with only single redis, unless it is ok to have data loss / cache rebuild. For HA setup, use Sentinel
+for low throughput and low volume, and Cluster for high throughput / fast growing storage.
