@@ -21,8 +21,7 @@ They are excellent both as Internet and WAN connectivity provider.
 ### 3. Rack: APC
 
 APC Netshelter SX is my choice for rack. It comes with variety of sizes and accessories, such as
-cable managers, power strips, etc. I would not use any standard racks that is coming from the data center,
-instead I will use this.
+cable managers, power strips, etc. I will always use this instead of any racks comes as a standard from the data center.
 
 ### 4. Server: Dell Poweredge
 
@@ -30,7 +29,7 @@ Dell servers have great management called iDRAC which I like.
 
 ### 5. Server: Supermicro
 
-Supermicro servers, particularly the BigTwin line, give the highest computing power density without blade complexity.
+Supermicro server design really stands out among its competitors,particularly their Ultra, BigTwin, and Superstorage line.
 They are also a great value compared to big brands, although their exotic line has comparable price.
 
 ### 6. UTP Cables: Eco Patch
@@ -54,12 +53,16 @@ Same as routers.
 
 Berca has responsive, great sales and great price.
 
+### 11: Storage: No idea
+
+Unfortunately, I have not worked with storage solutions yet.
+
 ## Platform and Devops
 
 ### 1. IaaS: AWS
 
-AWS is still the benchmark for the infrastructure provider, although it gets a little complex and expensive.
-It is also very easy to find engineers who are familiar with AWS.
+AWS is still the benchmark for the infrastructure provider, although it gets more complex and expensive each day.
+It has many features and SaaS add-ons. It is also very easy to find engineers who are familiar with AWS.
 
 ### 2. Monitoring: Datadog
 
@@ -70,7 +73,7 @@ alternatives.
 ### 3. Monitoring: Prometheus
 
 Prometheus is great once your services / server count reached > 150 and your Datadog bill is killing your budget.
-Setting it up is a little bit complex though.
+Setting it up is a little bit complex though, and the alerting is not as easy as Datadog.
 
 ### 4. Container Orchestration: Kubernetes
 
@@ -92,7 +95,7 @@ Having Elastic Search experience is essential for your team to handle searching 
 
 ### 8. Infrastructure Automation: Ansible
 
-Ansible is very simple for automating infrastructure.
+Ansible is very simple for automating infrastructure. 
 
 ### 9. Application Packaging: Docker
 
@@ -108,11 +111,26 @@ Gitlab CI is amazing because you can put workers that can pull from Gitlab serve
 
 ### 12. Server OS: Ubuntu
 
-I guess if I have to choose only one operating system for all of my servers, it would be Ubuntu.
+I guess if I have to choose only one base operating system for all of my servers, it would be Ubuntu. But of course,
+you mix and match your OS based on your needs.
 
 ### 13: HTTP Manipulator: Kong
 
 Kong is excellent to manipulate your HTTP requests.
+
+### 14: Hypervisor: KVM
+
+Although there are many excellent supervisors out there, I really like KVM. It is free and easy to setup.
+
+### 15: Relational Databases: MySQL
+
+I actually don't like MySQL very much, it is that I have most exposure compared to other relational DBs like Postgre and Oracle.
+It comes with various flavors, the one I like most is Percona ones because there are a lot of other toolings around it.
+
+### 16: Messaging: Kafka
+
+Kafka is a very fast messaging system and very easy to configure. It is very complex to set up the operational tools around it,
+however it is pretty maintenance-free once it is going.
 
 ## Programming and Architecture
 
