@@ -42,6 +42,7 @@ Unfortunately they are only available in Japan, and importing here costs a fortu
 ### 7. Firewall: No one
 
 Firewalls like Cisco are great, but sometimes they comes with nasty bug like losing your ARP table after 213 days.
+Not Fortinet as well, because the VPN needs propetiary protocol and client, and it disconnect with OS X quickly.
 
 ### 8. Routers: No idea
 
