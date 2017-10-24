@@ -63,6 +63,8 @@ Unfortunately, I have not worked with storage solutions yet.
 
 AWS is still the benchmark for the infrastructure provider, although it gets more complex and expensive each day.
 It has many features and SaaS add-ons. It is also very easy to find engineers who are familiar with AWS.
+I also had experience with local IaaS, most of them are lacking in features such as providing high IOPS or lacking in usability.
+Hopefully this will change in the future.
 
 ### 2. Monitoring: Datadog
 
