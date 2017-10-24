@@ -65,6 +65,10 @@ Unfortunately, I have not worked with storage solutions yet.
 
 AWS is still the benchmark for the infrastructure provider, although it gets more complex and expensive each day.
 It has many features and SaaS add-ons. It is also very easy to find engineers who are familiar with AWS.
+
+If you want to deploy in AWS, I would recommend Tokyo (ap-northeast) Region since it has 3 availability zones. This is critical
+when you are deploying services that requires quorum.
+
 I also had experience with local IaaS, most of them are lacking in features such as providing high IOPS or lacking in usability.
 Hopefully this will change in the future.
 
