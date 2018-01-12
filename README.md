@@ -27,7 +27,8 @@ cable managers, power strips, etc. I will always use this instead of any racks c
 
 ### 4. Server: Dell Poweredge
 
-Dell servers have great management called iDRAC which I like.
+Dell servers have great management called iDRAC which I like. It is also user friendly, such as having service tag
+logically placed in the backside, as well as informative lamps. They also expose their hardware.
 
 ### 5. Server: Supermicro
 
