@@ -10,15 +10,17 @@ _Disclaimer_ : This is my personal opinion and does not reflect any of the compa
 
 ### 1. Data Center: No one
 
-So far I have NOT found working on a data center in Indonesia that is satisfying. 
+So far I have not found working on a data center in Indonesia that is satisfying. 
 I only worked on 2 data centers in Indonesia, which are Biznet Midplaza and Biznet Technovillage.
 Biznet Midplaza has great connectivity from ISP, but the power source only comes from one grid.
-Biznet Technovillage have great location and expansion, as well as belong to Tier 3. But the ISP choice is limited.
+Biznet Technovillage have great location and expansion, as well as belong to Tier 3. But the ISP choice is limited. They
+also had several big downtimes in 2017 and 2018 that troubled their customer big time.
 
-### 2. ISP: Biznet
+### 2. ISP: CBN
 
-I can however, vouch on Biznet as an ISP. They have great support and team, and provides many connectivity.
-They are excellent both as Internet and WAN connectivity provider.
+For now, CBN is my favorite ISP in Indonesia. I think they are the most reliable ISP, although my experience is limited
+on international link only. Biznet sits on the second place for me. My team have worked with Lintasarta, Telkom, ICON+,
+and so far CBN stands out for reliability and Biznet from support side.
 
 ### 3. Rack: APC
 
