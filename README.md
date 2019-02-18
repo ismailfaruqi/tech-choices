@@ -133,7 +133,9 @@ If we really need subnetting, better add one subnet for each module, and apply A
 
 ### 1. Programming Language: Java
 
-Java is still de-facto language in enterprise that needs speed. Nuff said.
+Java is still de-facto language in enterprise that needs speed. Java Virtual Machine (JVM) is very mature, lots of
+tools built around it, and it has wealth of SDKs that no other languages can imagine. The amount of people who can write 
+Java is also abundant, so at least you won't have the programmer skill shortage problem on Java-based systems.
 
 ### 2. Architecture: Monolithic to Microservices
 
