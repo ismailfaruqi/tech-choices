@@ -30,36 +30,30 @@ cable managers, power strips, etc. I will always use this instead of any racks c
 ### 4. Server: Dell Poweredge
 
 Dell servers have great management called iDRAC which I like. It is also user friendly, such as having service tag
-logically placed in the backside, as well as informative lamps. They also expose their hardware.
+logically placed in the backside, as well as informative lamps. They also have their hardware information avaiable
+that can be scrapped using Prometheus.
 
-### 5. Server: Supermicro
-
-Supermicro server design really stands out among its competitors, particularly their Ultra, BigTwin, and Simply Double line.
-They are also a great value compared to big brands, although their exotic line has comparable price.
-
-### 6. UTP Cables: Eco Patch
+### 5. UTP Cables: Eco Patch
 
 [EcoPatch](https://www.ncj.co.jp/product/product-ecopatch.php) is a great cable which is unbeliveably thin.
-Unfortunately they are only available in Japan, and importing here costs a fortune.
+Unfortunately they are only available in Japan, and importing here costs a fortune. Panduit slim line stays on the
+second place for me.
 
-### 7. Firewall: No one
+### 6. Firewall: No one
 
 Firewalls like Cisco are great, but sometimes they comes with nasty bug like losing your ARP table after 213 days.
 Not Fortinet as well, because the VPN needs propetiary protocol and client, and it disconnect with OS X quickly.
 
-### 8. Routers: No idea
+### 7. Routers: No idea
 
 I hope i can touch this some time.
 
-### 9. Switches: No idea
+### 8. Switches: Cisco
 
-Same as routers.
+I have been using Cisco switches for like 7 years and they have been working flawlessly. They are a bit expensive but the
+price you pay is worth for it.
 
-### 10. IT Distributor: Berca
-
-Berca has responsive, great sales and great price.
-
-### 11: Storage: No idea
+### 9: Storage: No idea
 
 Unfortunately, I have not worked with storage solutions yet.
 
